@@ -23,6 +23,10 @@ pip install pyodbc
 3. Load Data: The loadSSMS function loads the transformed data into a SQL Server database using ODBC drivers. It creates a table named ERC_Tokens if it does not already exist and inserts the data into this table. Duplicate rows with the same timestamp, hash, value, and token symbol are removed to ensure data integrity.  
 
 4. Running the Code: The script is set up to run on ten different ERC-20 tokens, including Shiba Inu, Tether USD, BNB, stETH, TRON, Theta, Matic, ChainLink, Dai, and Uniswap Stablecoin. You can modify the script to include additional tokens or adjust the parameters as needed.
+
+Please see below screenshot for the result:  
+![image](https://github.com/Stephanie241/EtherScanETLProject/assets/144491602/4bc1b804-dfe9-4991-ae21-bf8c7a202e1b)
+
 ### Example usage for Shiba Inu token
 tokenName = 'SHIBA INU'
 si_result = ExtractAPI('0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE')
