@@ -1,4 +1,4 @@
-# EtherScanETLProject  
+# Cryptocurrency Transaction Data Extraction, Transformation, and Loading (ETL)
 
 ## Overview  
 This project is a Python script designed to extract, transform, and load (ETL) cryptocurrency transaction data from the Ethereum blockchain using the Etherscan API. It allows you to retrieve transaction data for various ERC-20 tokens, clean and format the data, and then load it into a SQL Server Management Studio (SSMS) database. The project demonstrates how to use Python libraries such as PrettyTable, requests, and pyodbc to accomplish this ETL process.  
